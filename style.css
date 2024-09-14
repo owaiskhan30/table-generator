@@ -62,7 +62,18 @@ body {
 
 @media screen and (max-width:767px) {
     .main {
-    width: 100%;
-    padding: 20px;
-}
+        width: 100%;
+        padding: 20px;
+    }
+    .main h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+    .main input#table_number {
+        font-size: 16px;
+    }
+    .main button {
+        font-size: 16px;
+    }
 }
